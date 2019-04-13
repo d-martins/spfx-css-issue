@@ -1,0 +1,11 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+$bodyText: '[theme:bodyText, default:#000]';
+$themePrimary: '[theme:themePrimary, default:#000000]';
+
+.redOrGreen {
+  .container {
+    color: $bodyText;
+    background-color: $themePrimary;
+  }
+}

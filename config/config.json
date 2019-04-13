@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "red-or-green-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/redOrGreen/RedOrGreenWebPart.js",
+          "manifest": "./src/webparts/redOrGreen/RedOrGreenWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RedOrGreenWebPartStrings": "lib/webparts/redOrGreen/loc/{locale}.js"
+  }
+}
